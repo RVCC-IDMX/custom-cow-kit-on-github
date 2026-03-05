@@ -1,0 +1,58 @@
+[
+  {
+    "text": "We don't need no education",
+    "artist": "Pink Floyd",
+    "song": "Another Brick in the Wall",
+    "mood": "reflective",
+    "category": "rock",
+    "attribution": "Pink Floyd - Another Brick in the Wall"
+  },
+  {
+    "text": "Let it be, let it be",
+    "artist": "The Beatles",
+    "song": "Let It Be",
+    "mood": "reflective",
+    "category": "rock",
+    "attribution": "The Beatles - Let It Be"
+  },
+  {
+    "text": "Is this the real life? Is this just fantasy?",
+    "artist": "Queen",
+    "song": "Bohemian Rhapsody",
+    "mood": "energetic",
+    "category": "rock",
+    "attribution": "Queen - Bohemian Rhapsody"
+  },
+  {
+    "text": "Don't stop believin'",
+    "artist": "Journey",
+    "song": "Don't Stop Believin'",
+    "mood": "motivational",
+    "category": "rock",
+    "attribution": "Journey - Don't Stop Believin'"
+  },
+  {
+    "text": "Cause baby you're a firework",
+    "artist": "Katy Perry",
+    "song": "Firework",
+    "mood": "motivational",
+    "category": "pop",
+    "attribution": "Katy Perry - Firework"
+  },
+  {
+    "text": "I'm feeling good",
+    "artist": "Nina Simone",
+    "song": "Feeling Good",
+    "mood": "happy",
+    "category": "jazz",
+    "attribution": "Nina Simone - Feeling Good"
+  },
+  {
+    "text": "Tears in heaven",
+    "artist": "Eric Clapton",
+    "song": "Tears in Heaven",
+    "mood": "sad",
+    "category": "rock",
+    "attribution": "Eric Clapton - Tears in Heaven"
+  }
+]

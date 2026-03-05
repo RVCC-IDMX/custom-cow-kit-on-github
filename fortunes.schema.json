@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Song Lyrics Fortunes",
+  "description": "An array of fortune objects where each fortune is a line from a song, including mood and category for filtering.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["text", "mood", "category"],
+    "properties": {
+      "text": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The lyric that will be displayed as a fortune."
+      },
+      "artist": {
+        "type": "string",
+        "description": "(Optional) Artist or band who performed the song."
+      },
+      "song": {
+        "type": "string",
+        "description": "(Optional) Name of the song."
+      },
+      "mood": {
+        "type": "string",
+        "enum": ["happy", "sad", "motivational", "reflective", "energetic"],
+        "description": "The mood associated with the lyric, for filtering."
+      },
+      "category": {
+        "type": "string",
+        "enum": ["rock", "pop", "jazz"],
+        "description": "The music category for filtering."
+      },
+      "attribution": {
+        "type": "string",
+        "description": "(Optional) Additional attribution or source."
+      }
+    },
+    "additionalProperties": false
+  }
+}

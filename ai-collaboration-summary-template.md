@@ -1,10 +1,10 @@
 # AI collaboration summary
 
-**Student name:** [Your name]
+**Student name:** Kaitlin Taylor
 
 **Assignment:** Custom Cow
 
-**Time to complete:** ~10 minutes
+**Time to complete:** ~4 hours (spread over sessions)
 
 ---
 
@@ -14,11 +14,11 @@ Pick ONE decision from this assignment — schema design, upgrade choice, how yo
 
 **What was the decision?**
 
-[Describe it briefly]
+I chose to use song lyrics as the theme for fortunes, with fields for text, artist, song, mood, category, and attribution.
 
 **What alternatives did you consider?**
 
-[What other options existed? Why did you choose this one?]
+I considered themes like coding tips, motivational quotes, or jokes. I chose song lyrics because it's personal and fun, allowing for mood-based enhancements. Coding tips might have been more practical, but song lyrics fit the "fortune" vibe better.
 
 ---
 
@@ -28,7 +28,7 @@ Describe a moment where AI helped you think differently — not just wrote code 
 
 **What happened?**
 
-[Maybe it suggested an approach you hadn't considered, or asked a clarifying question that changed your direction, or surfaced a problem you would have missed]
+When designing the JSON schema, the AI suggested adding a mood field for future-proofing, which I hadn't initially considered. This led to implementing mood-based eyes and colors, making the fortunes more dynamic and personalized.
 
 ---
 
@@ -38,11 +38,11 @@ Something didn't work at some point. How did you figure it out?
 
 **What broke?**
 
-[Describe the error or unexpected behavior]
+Initially, importing the JSON file with `import data from "./file.json" with { type: "json" }` failed because it requires Node.js v18.3+, but the project uses an older version.
 
 **Your debugging process:**
 
-[What did you try? console.log? Re-reading the tutorial? Asking AI differently? Reading the error message more carefully?]
+I searched for alternatives and switched to `readFileSync` from the fs module. The AI suggested this after I described the error, and it worked immediately. I also added console.log for CLI args during development to verify parsing.
 
 ---
 
@@ -50,12 +50,12 @@ Something didn't work at some point. How did you figure it out?
 
 What did you learn that you didn't expect? Or what was harder/easier than you anticipated?
 
-[This could be about JSON, objects, CLI, AI collaboration, or anything else]
+I was surprised how easy it was to work with objects once I understood dot notation — accessing `fortune.text` felt natural after the initial confusion. CLI argument handling was harder than expected, but the `process.argv.slice(2)` pattern made it manageable. I didn't expect JSON Schema validation in VS Code to be so seamless.
 
 ---
 
 ## Optional
 
-**Approximate time spent:** [e.g., Session 1: 2 hours, Session 2: 1.5 hours]
+**Approximate time spent:** Session 1: 2 hours, Session 2: 2 hours
 
-**Upgrade you chose:** [Which one?]
+**Upgrade you chose:** Mood-based eyes and chalk colors

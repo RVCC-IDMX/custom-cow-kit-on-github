@@ -69,15 +69,49 @@ Welcome to Week 4! This two-session assignment builds on Fortunate Cow by teachi
 
 ## Sample output
 
-<!-- TODO: Add your sample output here after completing the assignment! -->
-
+### Random fortune
 ```text
- _______________________________
-< Arrays start at index 0       >
- -------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+ ____________________________________________
+< Good morning! Cause baby you're a firework >
+ --------------------------------------------
+  \
+   \   \
+        \ /\
+        ( )
+      .( o ).
+```
+
+### Filtered by category (e.g., rock)
+```text
+ ____________________________________________________________
+< Good morning! Is this the real life? Is this just fantasy? >
+ ------------------------------------------------------------
+  \
+   \   \
+        \ /\
+        ( )
+      .( o ).
+```
+
+### List categories
+```text
+Available categories:
+  - rock
+  - pop
+  - jazz
+```
+
+### Count fortunes
+```text
+Fortune counts by category:
+  rock: 5
+  pop: 1
+  jazz: 1
+  Total: 7
+```
+
+### Error for invalid category
+```text
+No fortunes found for category "fakecategory".
+Available categories: rock, pop, jazz
 ```
